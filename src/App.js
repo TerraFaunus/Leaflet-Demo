@@ -2,6 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const a = 1
+  let fun = () => {
+    a++;
+  }
+
+  console.log('teeest');
+  
   return (
     <div className="App">
       <header className="App-header">
