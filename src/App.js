@@ -6,6 +6,9 @@ function App() {
   let fun = () => {
     a++;
   }
+
+  console.log('teeest');
+  
   return (
     <div className="App">
       <header className="App-header">
